@@ -1,0 +1,6 @@
+"finetuning": 1          # True if finetuning the backbone, False if training from scratch
+"finetuning_lr": 0.0001  # Learning rate for finetuning the backbone
+"new_fc_lr": 0.001       # Learning rate for the new fully connected layer
+"momentum": 0.9          # Momentum for the optimizer
+"weight_decay": 0.0005   # Weight decay for regularization
+"num_epochs": 100        # Number of epochs for training
